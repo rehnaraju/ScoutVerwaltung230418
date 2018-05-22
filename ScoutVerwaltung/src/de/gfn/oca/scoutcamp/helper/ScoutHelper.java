@@ -31,7 +31,7 @@ public class ScoutHelper {
         scout.setBirthdate(LocalDate.parse(scanner.next(), FORMATTER));
         
         System.out.print("Aktiv: ");
-        scout.setActive(scanner.nextBoolean());
+        scout.setStatus(scanner.nextInt());
         
         return scout;
     }
